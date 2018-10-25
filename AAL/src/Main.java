@@ -1,16 +1,27 @@
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args){
 
-//        GraphMatrix graphMatrix = new GraphMatrix(5);
-//        graphMatrix.addEdge(1, 1);
-//        System.out.println(graphMatrix.isEdge(1,1));
+        Graph graph = new Graph(5);
+        graph.addEdge(1,4);
+        graph.addEdge(4,3);
+        graph.addEdge(3,1);
+        graph.addEdge(2,3);
+        graph.addEdge(5,2);
 
-        Graphlist graphlist = new Graphlist(4);
-        graphlist.addEdge(1,2);
-        graphlist.addEdge(2,3);
-        graphlist.addEdge(3,4);
-        graphlist.addEdge(4,2);
-        graphlist.printAllNeighbours();
+
+        graph.printEdges();
+
     }
+
+    public static int howManyScouts(Graphlist graphlist) {
+
+
+        return 0;
+    }
+
 }
+
+
