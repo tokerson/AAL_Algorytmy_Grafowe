@@ -24,7 +24,26 @@ public class Graph {
 
     public void printEdges() {
         for( int i = 0; i < nodes.length; i++) {
-            System.out.println(i + 1 + " is connected with " + Arrays.toString(nodes[i].getNeighbours()));
+            System.out.println(i + 1 + " is connected with " + Arrays.toString(nodes[i].getNeighbors()));
         }
+    }
+
+    public Integer getSize() {
+        return size;
+    }
+
+    public Node getNode(int index) {
+        if(index > 0) {
+            return nodes[index - 1];
+        }
+        return null;
+    }
+
+    public boolean areNodesConnected(int first, int second) {
+        if( first > 0 && second > 0 && first != second) {
+            return nodes[first - 1].isNeighbor(second);
+        }
+
+        return false;
     }
 }
