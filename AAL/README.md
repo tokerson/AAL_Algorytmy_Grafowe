@@ -3,7 +3,7 @@
 
 		$java Generator.GraphGenerator <Number_of_Nodes> | java Main
 	
-Replace <Number_of_Nodes> with number of nodes you want to be used when creating your Graph .
+   Replace <Number_of_Nodes> with number of nodes you want to be used when creating your Graph .
 
 2. Alternatively, you can run 
 
