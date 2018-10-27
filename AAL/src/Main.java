@@ -1,4 +1,6 @@
+import java.io.*;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
 
@@ -19,15 +21,21 @@ public class Main {
 //        graph.addEdge(4,2);
 //        graph.addEdge(2,6);
 
-        Graph graph = new Graph(4);
+//        Graph graph = new Graph(4);
+//
+//        graph.addEdge(1,2);
+//        graph.addEdge(2,1);
+//        graph.addEdge(3,2);
+//        graph.addEdge(4,2);
+//
+//        graph.printEdges();
+//
+//        System.out.println(howManyScouts(graph));
 
-        graph.addEdge(1,2);
-        graph.addEdge(2,1);
-        graph.addEdge(3,2);
-        graph.addEdge(4,2);
 
+
+        Graph graph = createGraphFromFile("in.txt");
         graph.printEdges();
-
         System.out.println(howManyScouts(graph));
     }
 
@@ -52,6 +60,38 @@ public class Main {
             }
         }
         return scouts;
+    }
+
+    public static Graph createGraphFromFile(String filename) {
+
+        File file = new File(filename);
+
+        try {
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
+
+            String str = bufferedReader.readLine();
+//            System.out.println(str);
+
+            Graph graph = new Graph(Integer.parseInt(str));
+
+            while((str = bufferedReader.readLine()) != null) {
+//                System.out.println(str);
+                String[] numbers = (str.split("\\s+"));
+                graph.addEdge(Integer.parseInt(numbers[0]),Integer.parseInt(numbers[1]));
+            }
+
+            bufferedReader.close();
+            return graph;
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+        return null;
+
     }
 
 }
