@@ -12,20 +12,20 @@ public class Main {
 
 //        graph.printEdges();
         int scouts;
+//        long startTime = System.nanoTime();
+//        scouts = howManyScouts(graph);
+//        long endTime = System.nanoTime();
+//        System.out.println(scouts);
+//        System.out.println("Your time is " + (endTime - startTime) + " ns");
+
         long startTime = System.nanoTime();
-        scouts = howManyScouts(graph);
+        scouts = howManyScouts(graph,Main::DFS_Recursive2);
         long endTime = System.nanoTime();
         System.out.println(scouts);
         System.out.println("Your time is " + (endTime - startTime) + " ns");
 
         startTime = System.nanoTime();
-        scouts = howManyScouts2(graph);
-        endTime = System.nanoTime();
-        System.out.println(scouts);
-        System.out.println("Your time is " + (endTime - startTime) + " ns");
-
-        startTime = System.nanoTime();
-        scouts = howManyScouts3(graph);
+        scouts = howManyScouts(graph,Main::DFS_Stack);
         endTime = System.nanoTime();
         System.out.println(scouts);
         System.out.println("Your time is " + (endTime - startTime) + " ns");
@@ -73,7 +73,7 @@ public class Main {
         }
     }
 
-    public static int howManyScouts(Graph graph) {
+    public static int howManyScouts(Graph graph,DFS function) {
         int scouts = 0;
         int size = graph.getSize();
         boolean[] visited = new boolean[size];
@@ -81,36 +81,12 @@ public class Main {
         for(int i = 0 ; i < size ; ++i) {
             if(visited[i] == false) {
                 ++scouts;
-                DFS_Recursive(graph,visited,i);
-            }
-        }
-        return scouts;
-    }
-
-
-    public static int howManyScouts2(Graph graph) {
-        int scouts = 0;
-        int size = graph.getSize();
-        boolean[] visited = new boolean[size];
-
-        for(int i = 0 ; i < size ; ++i) {
-            if(visited[i] == false) {
-                ++scouts;
-                DFS_Recursive2(graph,visited,i);
-            }
-        }
-        return scouts;
-    }
-
-    public static int howManyScouts3(Graph graph) {
-        int scouts = 0;
-        int size = graph.getSize();
-        boolean[] visited = new boolean[size];
-
-        for(int i = 0 ; i < size ; ++i) {
-            if(visited[i] == false) {
-                ++scouts;
-                DFS_Stack(graph,visited,i);
+                try {
+                    function.DFS(graph,visited,i);
+                } catch (OutOfMemoryError e) {
+                    e.printStackTrace();
+                    System.out.println("Your graph is too big :/ ");
+                }
             }
         }
         return scouts;

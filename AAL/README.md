@@ -9,7 +9,7 @@
 
 		$java Generator.GraphGenerator <Number_of_Nodes> > in.txt
 	
-   To create or overrite file in.txt. This file will contain all the data about your Graph.
+   This will create or overwrite file in.txt. This file will contain all the data about your Graph.
    
    Next you have to run
    
