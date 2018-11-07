@@ -1,8 +1,5 @@
 import java.io.*;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.Stack;
-import java.util.concurrent.Callable;
 
 public class Main {
 
@@ -10,16 +7,11 @@ public class Main {
 
         Graph graph = createGraph();
 
-//        graph.printEdges();
         int scouts;
-//        long startTime = System.nanoTime();
-//        scouts = howManyScouts(graph);
-//        long endTime = System.nanoTime();
-//        System.out.println(scouts);
-//        System.out.println("Your time is " + (endTime - startTime) + " ns");
 
         long startTime = System.nanoTime();
-        scouts = howManyScouts(graph,Main::DFS_Recursive2);
+        assert graph != null;
+        scouts = howManyScouts(graph,Main::DFS_Recursive);
         long endTime = System.nanoTime();
         System.out.println(scouts);
         System.out.println("Your time is " + (endTime - startTime) + " ns");
@@ -31,55 +23,45 @@ public class Main {
         System.out.println("Your time is " + (endTime - startTime) + " ns");
     }
 
-    public static void DFS_Recursive(Graph graph, boolean[] visited, int v) {
-        visited[v] = true;
-        for( int i = 0; i < graph.getSize() ; ++i) {
-            if( graph.areNodesConnected(v + 1, i + 1) && visited[i] == false ) {
-                DFS_Recursive(graph,visited,i);
-            }
-        }
-    }
-
-    public static void DFS_Recursive2(Graph graph, boolean[] visited, int v) {
+    private static void DFS_Recursive(Graph graph, boolean[] visited, int v) {
         visited[v] = true;
         Integer[] neighbors = graph.getNode(v + 1).getNeighbors();
-        for( int i = 0; i < neighbors.length ; ++i) {
-            if( visited[neighbors[i] - 1] == false ) {
-                DFS_Recursive2(graph,visited,neighbors[i] - 1);
+        for (Integer neighbor : neighbors) {
+            if (!visited[neighbor - 1]) {
+                DFS_Recursive(graph, visited, neighbor - 1);
             }
         }
     }
 
 
-    public static void DFS_Stack(Graph graph,boolean[] visited,int node) {
-        int size = graph.getSize();
+    private static void DFS_Stack(Graph graph, boolean[] visited, int node) {
 
-        Stack stack = new Stack();
+        Stack<Integer> stack = new Stack<>();
 
         stack.push(node);
         visited[node] = true;
 
         while(!stack.empty()) {
-            node = (int) stack.pop();
+            node = stack.pop();
 
             Integer[] neighbors = graph.getNode(node + 1).getNeighbors();
 
-            for( int i = 0; i < neighbors.length ; ++i) {
-                if( visited[neighbors[i] - 1] == false ) {
-                    visited[neighbors[i] - 1] = true;
-                    stack.push(neighbors[i] - 1);
+            for (Integer neighbor : neighbors) {
+                if (!visited[neighbor - 1]) {
+                    visited[neighbor - 1] = true;
+                    stack.push(neighbor - 1);
                 }
             }
         }
     }
 
-    public static int howManyScouts(Graph graph,DFS function) {
+    private static int howManyScouts(Graph graph, DFS function) {
         int scouts = 0;
         int size = graph.getSize();
         boolean[] visited = new boolean[size];
 
         for(int i = 0 ; i < size ; ++i) {
-            if(visited[i] == false) {
+            if(!visited[i]) {
                 ++scouts;
                 try {
                     function.DFS(graph,visited,i);
@@ -92,7 +74,7 @@ public class Main {
         return scouts;
     }
 
-    public static Graph createGraph() {
+    private static Graph createGraph() {
 
         try {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
