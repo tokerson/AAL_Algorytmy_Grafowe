@@ -3,9 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="912e93a9-de96-4b61-8b75-62c82943fe4f" name="Default Changelist" comment="small commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AAL_Algorytmy_Grafowe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AAL_Algorytmy_Grafowe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/Generator/GraphVisualizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/GraphMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/Graphlist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphlist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/graph.gv" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/graph.gv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/graph.gv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/graph.gv.pdf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,9 +32,10 @@
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -74,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="332">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,11 +110,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/in.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="656">
@@ -125,29 +128,6 @@
                 <element signature="e#316#317#0" expanded="true" />
                 <element signature="e#387#388#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graphlist.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GraphMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -191,9 +171,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2038" />
-    <option name="width" value="1070" />
-    <option name="height" value="655" />
+    <option name="y" value="26" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -201,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -208,24 +189,6 @@
             <path>
               <item name="AAL" type="b2602c69:ProjectViewProjectNode" />
               <item name="AAL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AAL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AAL" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AAL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AAL" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AAL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AAL" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="AAL_Algorytmy_Grafowe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AAL" type="b2602c69:ProjectViewProjectNode" />
@@ -246,7 +209,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Visualization">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Generator" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Generator.GraphGenerator" />
       <module name="AAL_Algorytmy_Grafowe" />
@@ -293,16 +255,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Visualization" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Generator.GraphVisualizer" />
-      <module name="AAL_Algorytmy_Grafowe" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Generator" />
-      <item itemvalue="Application.Visualization" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
@@ -324,9 +278,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="26" width="1440" height="874" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24541004" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24892396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -410,6 +365,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/reflect/InvocationTargetException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph.png" />
+    <entry file="file://$PROJECT_DIR$/src/Generator/GraphVisualizer.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -462,38 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/reflect/InvocationTargetException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Generator/GraphVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="75" column="20" lean-forward="true" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3136#3137#0" expanded="true" />
-            <element signature="e#3176#3177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
