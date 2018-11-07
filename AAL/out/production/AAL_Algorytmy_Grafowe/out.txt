@@ -1,4 +1,0 @@
-8
-Your time is 64505069 ns
-8
-Your time is 1244187 ns
