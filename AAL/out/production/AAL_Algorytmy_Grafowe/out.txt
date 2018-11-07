@@ -1,4 +1,4 @@
 3
-Your time is 150268641 ns
+Your time is 59500875 ns
 3
-Your time is 4479908 ns
+Your time is 561899 ns

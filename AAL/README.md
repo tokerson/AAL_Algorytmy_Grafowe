@@ -19,4 +19,9 @@
    
    Then you will get your output visible in the console.
 
+3. In order to visualize your graph go into Python folder, then run 
+
+		$python visualizer.py
+
+   Your graph will appear in graph.gv.pdf file and should open automatically.
 
