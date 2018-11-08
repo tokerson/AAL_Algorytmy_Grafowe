@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Your time is " + (endTime - startTime) + " ns");
     }
 
-    private static void DFS_Recursive(Graph graph, boolean[] visited, int v) {
+    public static void DFS_Recursive(Graph graph, boolean[] visited, int v) {
         visited[v] = true;
         Integer[] neighbors = graph.getNode(v + 1).getNeighbors();
         for (Integer neighbor : neighbors) {
@@ -34,7 +34,7 @@ public class Main {
     }
 
 
-    private static void DFS_Stack(Graph graph, boolean[] visited, int node) {
+    public static void DFS_Stack(Graph graph, boolean[] visited, int node) {
 
         Stack<Integer> stack = new Stack<>();
 
@@ -55,7 +55,7 @@ public class Main {
         }
     }
 
-    private static int howManyScouts(Graph graph, DFS function) {
+    public static int howManyScouts(Graph graph, DFS function) {
         int scouts = 0;
         int size = graph.getSize();
         boolean[] visited = new boolean[size];
@@ -74,7 +74,7 @@ public class Main {
         return scouts;
     }
 
-    private static Graph createGraph() {
+    public static Graph createGraph() {
 
         try {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
