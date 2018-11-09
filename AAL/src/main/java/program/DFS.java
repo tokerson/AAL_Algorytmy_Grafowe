@@ -1,3 +1,5 @@
+package program;
+
 @FunctionalInterface
 public interface DFS {
 

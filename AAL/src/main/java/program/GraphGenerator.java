@@ -1,4 +1,4 @@
-package Generator;
+package program;
 
 import java.util.Random;
 

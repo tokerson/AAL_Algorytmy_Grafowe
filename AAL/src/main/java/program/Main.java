@@ -1,3 +1,5 @@
+package program;
+
 import java.io.*;
 import java.util.Stack;
 
@@ -74,6 +76,7 @@ public class Main {
         return scouts;
     }
 
+
     public static Graph createGraph() {
 
         try {
@@ -96,7 +99,31 @@ public class Main {
         }
 
         return null;
+    }
 
+
+    public static Graph createGraph(String filename) {
+
+        try {
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(filename));
+
+            String str = bufferedReader.readLine();
+
+            Graph graph = new Graph(Integer.parseInt(str));
+
+            while((str = bufferedReader.readLine()) != null) {
+                String[] numbers = (str.split("\\s+"));
+                graph.addEdge(Integer.parseInt(numbers[0]),Integer.parseInt(numbers[1]));
+            }
+
+            bufferedReader.close();
+            return graph;
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return null;
     }
 
 }
