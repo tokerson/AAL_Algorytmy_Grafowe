@@ -14,7 +14,7 @@ public class Main {
         scouts = howManyScouts(graph,Main::DFS_Recursive);
         long endTime = System.nanoTime();
         System.out.println(scouts);
-        System.out.println("Your time is " + (endTime - startTime) + " ns");
+        System.out.println("Your time is " + (endTime - startTime) + " ns after changes");
 
         startTime = System.nanoTime();
         scouts = howManyScouts(graph,Main::DFS_Stack);

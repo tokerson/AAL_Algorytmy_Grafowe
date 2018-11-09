@@ -2,16 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="912e93a9-de96-4b61-8b75-62c82943fe4f" name="Default Changelist" comment="small commit">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_core_1_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_generator_annprocess_1_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Generator/GraphGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AAL_Algorytmy_Grafowe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AAL_Algorytmy_Grafowe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/DFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/Generator/GraphGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generator/GraphGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +34,7 @@
     <session id="-1439876906">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -30,22 +42,23 @@
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="7720" />
+          <entry key="java" value="7851" />
           <entry key="md" value="10" />
           <entry key="txt" value="445" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7720" />
+          <entry key="JAVA" value="7851" />
           <entry key="Markdown" value="10" />
           <entry key="PLAIN_TEXT" value="451" />
         </counts>
@@ -53,19 +66,21 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="11" />
+          <entry key="java" value="12" />
           <entry key="md" value="1" />
           <entry key="png" value="2" />
           <entry key="txt" value="6" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="12" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -81,34 +96,51 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DFS.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graph.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Graph.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Node.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Generator/GraphGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -153,6 +185,12 @@
         <option value="$PROJECT_DIR$/src/main/Generator/GraphGenerator.java" />
         <option value="$PROJECT_DIR$/src/Graph.java" />
         <option value="$PROJECT_DIR$/src/DFS.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/DFS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Graph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Generator/GraphGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -169,27 +207,27 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="26" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="x" value="1844" />
+    <option name="width" value="1430" />
+    <option name="height" value="872" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="PackagesPane">
+        <subPane>
           <expand>
             <path>
-              <item name="AAL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AAL_Algorytmy_Grafowe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="AAL" type="58d84e3e:PackageViewProjectNode" />
+              <item name="test" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="AAL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AAL_Algorytmy_Grafowe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AAL" type="58d84e3e:PackageViewProjectNode" />
+              <item name="test" type="616d4139:PackageViewModuleNode" />
+              <item name="org.sample" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -211,6 +249,21 @@
               <item name="AAL" type="b2602c69:ProjectViewProjectNode" />
               <item name="AAL" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AAL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AAL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AAL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AAL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Generator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -221,17 +274,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="AAL" type="58d84e3e:PackageViewProjectNode" />
-              <item name="test" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="AAL" type="58d84e3e:PackageViewProjectNode" />
-              <item name="test" type="616d4139:PackageViewModuleNode" />
-              <item name="org.sample" type="1f31426a:PackageElementNode" />
+              <item name="AAL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="AAL_Algorytmy_Grafowe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
@@ -242,7 +290,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jung-visualization-2.1.1.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
@@ -264,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Generator">
     <configuration name="Generator" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Generator.GraphGenerator" />
       <module name="AAL_Algorytmy_Grafowe" />
@@ -306,9 +354,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="26" width="1680" height="1024" extended-state="6" />
+    <frame x="1680" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27233782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2760098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -382,6 +431,23 @@
     <entry file="file://$PROJECT_DIR$/out/production/AAL_Algorytmy_Grafowe/Generator/GraphGenerator.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/reflect/InvocationTargetException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph.png" />
+    <entry file="file://$PROJECT_DIR$/src/Generator/GraphVisualizer.java" />
+    <entry file="file://$PROJECT_DIR$/in.txt" />
+    <entry file="file://$PROJECT_DIR$/src/Graphlist.java" />
+    <entry file="file://$PROJECT_DIR$/src/GraphMatrix.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Node.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Graph.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/DFS.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Generator/GraphGenerator.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -392,84 +458,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/reflect/InvocationTargetException.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="96">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph.png" />
-    <entry file="file://$PROJECT_DIR$/src/Generator/GraphVisualizer.java" />
-    <entry file="file://$PROJECT_DIR$/src/Generator/GraphGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/in.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Graphlist.java" />
-    <entry file="file://$PROJECT_DIR$/src/GraphMatrix.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/DFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Generator/GraphGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Node.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AAL_Algorytmy_Grafowe.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Graph.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Generator/GraphGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -531,6 +556,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -538,7 +564,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jung-visualization-2.1.1</last-edited>
+          <last-edited>org.openjdk.jmh:jmh-core:1.21</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
