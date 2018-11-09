@@ -1,3 +1,5 @@
 *.pdf
 *.gv
 *.txt
+AAL/target/
+.idea/

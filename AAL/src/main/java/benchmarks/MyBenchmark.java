@@ -10,15 +10,13 @@ import java.util.concurrent.TimeUnit;
 @State(Scope.Thread)
 public class MyBenchmark {
 
-    //TODO check if this is gonna work
-    @Param("")  //I can add Param({filename1, filename2, ... }) later on in order to test on many graphs.
     public String filename;
 
-    public Graph graph;
+    public Graph graph ;
 
     @Setup
     public void setup(){
-        filename = "/home/tokarz/Documents/Projects/AAL_Algorytmy_Grafowe/AAL/target/classes/in.txt";
+        filename = "./classes/in.txt";
         graph = Main.createGraph(filename);
     }
 
@@ -31,7 +29,7 @@ public class MyBenchmark {
     @Benchmark
     @BenchmarkMode(Mode.AverageTime)
     @Fork(value = 1)
-    @Warmup(iterations = 2, time = 10, timeUnit = TimeUnit.SECONDS)
+    @Warmup(iterations = 5, time = 5, timeUnit = TimeUnit.SECONDS)
     @Measurement(iterations = 3)
     @OutputTimeUnit(TimeUnit.NANOSECONDS)
     public void recursive() {
@@ -41,7 +39,7 @@ public class MyBenchmark {
     @Benchmark
     @BenchmarkMode(Mode.AverageTime)
     @Fork(value = 1)
-    @Warmup(iterations = 2, time = 10, timeUnit = TimeUnit.SECONDS)
+    @Warmup(iterations = 5, time = 5, timeUnit = TimeUnit.SECONDS)
     @Measurement(iterations = 3)
     @OutputTimeUnit(TimeUnit.NANOSECONDS)
     public void non_recursive() {
