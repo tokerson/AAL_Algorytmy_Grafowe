@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="912e93a9-de96-4b61-8b75-62c82943fe4f" name="Default Changelist" comment="small commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AAL_Algorytmy_Grafowe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AAL_Algorytmy_Grafowe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/benchmarks/MyBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/benchmarks/MyBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/GraphGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/GraphGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AAL_Algorytmy_Grafowe-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/AAL_Algorytmy_Grafowe-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/benchmarks.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/benchmarks.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/benchmarks/MyBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/benchmarks/MyBenchmark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/benchmarks/generated/MyBenchmark_non_recursive_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/benchmarks/generated/MyBenchmark_non_recursive_jmhTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/benchmarks/generated/MyBenchmark_recursive_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/benchmarks/generated/MyBenchmark_recursive_jmhTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/program/GraphGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/program/GraphGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/benchmarks/generated/MyBenchmark_non_recursive_jmhTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/benchmarks/generated/MyBenchmark_non_recursive_jmhTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/benchmarks/generated/MyBenchmark_recursive_jmhTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/benchmarks/generated/MyBenchmark_recursive_jmhTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-    </list>
+    <list default="true" id="912e93a9-de96-4b61-8b75-62c82943fe4f" name="Default Changelist" comment="small commit" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -128,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/in.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="16">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -348,30 +332,13 @@
             <path>
               <item name="AAL" type="b2602c69:ProjectViewProjectNode" />
               <item name="AAL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AAL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AAL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="benchmarks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AAL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AAL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="program" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AAL" type="b2602c69:ProjectViewProjectNode" />
               <item name="AAL" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AAL" type="b2602c69:ProjectViewProjectNode" />
@@ -473,7 +440,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1440" height="874" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28837878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -658,7 +624,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/in.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>

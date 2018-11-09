@@ -1,5 +1,6 @@
 *.pdf
 *.gv
 *.txt
+!AAL/src/main/resources/*.txt
 AAL/target/
 .idea/
