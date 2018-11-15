@@ -20,7 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AAL_Algorytmy_Grafowe" target="8" />
+      <module name="AAL_Algorytmy_Grafowe" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

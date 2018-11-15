@@ -1,12 +1,13 @@
 from graphviz import Digraph
+import sys
 
 graph = Digraph(comment='Graph')
-file = open("/home/tokarz/Documents/Projects/AAL_Algorytmy_Grafowe/AAL/out/production/AAL_Algorytmy_Grafowe/in.txt","r")
+file = open(sys.argv[1], "r")
 
 for line in file:
     numbers = line.split()
     if len(numbers) == 2:
-        graph.edge(numbers[0],numbers[1])
+        graph.edge(numbers[0], numbers[1])
 
 file.close()
 
