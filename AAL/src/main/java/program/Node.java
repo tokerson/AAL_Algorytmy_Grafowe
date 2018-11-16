@@ -8,7 +8,7 @@ public class Node {
     private List<Integer> neighbors = new ArrayList<Integer>();
 
     public void addNeighbor(int neighbor) {
-        if(isNeighbor(neighbor) == false) {
+        if(!isNeighbor(neighbor)) {
             neighbors.add(neighbor);
         }
     }
@@ -18,9 +18,6 @@ public class Node {
     }
 
     public boolean isNeighbor(int neighbor) {
-        if(neighbors.indexOf(neighbor) != -1) {
-            return true;
-        }
-        return false;
+        return neighbors.indexOf(neighbor) != -1;
     }
 }

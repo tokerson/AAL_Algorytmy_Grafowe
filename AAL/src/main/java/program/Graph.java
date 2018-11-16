@@ -1,7 +1,5 @@
 package program;
 
-import java.util.Arrays;
-
 public class Graph {
     private Integer size;
     private Node[] nodes;
@@ -14,19 +12,11 @@ public class Graph {
         }
     }
 
-    public boolean addEdge(Integer first, Integer second) {
+    public void addEdge(Integer first, Integer second) {
 
         if ( first > 0  && second > 0 && second != first) {
             nodes[first - 1].addNeighbor(second);
             nodes[second - 1].addNeighbor(first);
-            return true;
-        }
-        return false;
-    }
-
-    public void printEdges() {
-        for( int i = 0; i < nodes.length; i++) {
-            System.out.println(i + 1 + " is connected with " + Arrays.toString(nodes[i].getNeighbors()));
         }
     }
 
@@ -41,11 +31,4 @@ public class Graph {
         return null;
     }
 
-    public boolean areNodesConnected(int first, int second) {
-        if( first > 0 && second > 0 && first != second) {
-            return nodes[first - 1].isNeighbor(second);
-        }
-
-        return false;
-    }
 }

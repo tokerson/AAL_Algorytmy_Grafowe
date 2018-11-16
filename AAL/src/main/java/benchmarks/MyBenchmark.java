@@ -29,7 +29,7 @@ public class MyBenchmark {
     @Benchmark
     @BenchmarkMode(Mode.AverageTime)
     @Fork(value = 1)
-    @Warmup(iterations = 5, time = 5, timeUnit = TimeUnit.SECONDS)
+    @Warmup(iterations = 500, time = 100, timeUnit = TimeUnit.MILLISECONDS)
     @Measurement(iterations = 3)
     @OutputTimeUnit(TimeUnit.NANOSECONDS)
     public void recursive() {
@@ -39,7 +39,7 @@ public class MyBenchmark {
     @Benchmark
     @BenchmarkMode(Mode.AverageTime)
     @Fork(value = 1)
-    @Warmup(iterations = 5, time = 5, timeUnit = TimeUnit.SECONDS)
+    @Warmup(iterations = 500, time = 100, timeUnit = TimeUnit.MILLISECONDS)
     @Measurement(iterations = 3)
     @OutputTimeUnit(TimeUnit.NANOSECONDS)
     public void non_recursive() {

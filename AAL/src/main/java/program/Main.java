@@ -11,18 +11,11 @@ public class Main {
 
         int scouts;
 
-        long startTime = System.nanoTime();
         assert graph != null;
         scouts = howManyScouts(graph,Main::DFS_Recursive);
-        long endTime = System.nanoTime();
-        System.out.println(scouts);
-        System.out.println("Your time is " + (endTime - startTime) + " ns after changes in maven");
-
-        startTime = System.nanoTime();
+        System.out.println("Recursive algoritm calculated that your Majesty shall ask " + scouts + " scouts");
         scouts = howManyScouts(graph,Main::DFS_Stack);
-        endTime = System.nanoTime();
-        System.out.println(scouts);
-        System.out.println("Your time is " + (endTime - startTime) + " ns");
+        System.out.println("Iterative algoritm calculated that your Majesty shall ask " + scouts + " scouts");
     }
 
     public static void DFS_Recursive(Graph graph, boolean[] visited, int v) {
