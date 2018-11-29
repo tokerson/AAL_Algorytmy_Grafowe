@@ -9,8 +9,11 @@ Project calculating how many Scouts does the King has to ask in order to know ev
         $mvn clean install
         
    to compile whole project and create target directory with compiled classes and benchmarks.jar for benchmarking.
+   If you encounter troubles with maven-surefire-plugin try running
 
-2. In order to run application head to AAL/target/classes/ directory. You will find there all compiled classes.
+      $mvn dependency:tree
+
+2. In order to run application head to AAL/target/classes/ directory. You will find all compiled classes there.
    To build your graph and test it immediately run this command
 
 		$java program.GraphGenerator <Number_of_Nodes> | java program.Main
@@ -22,7 +25,7 @@ Project calculating how many Scouts does the King has to ask in order to know ev
 
 		$java program.GraphGenerator <Number_of_Nodes> > in.txt
 	
-   This will create or overwrite file in.txt. This file will contain all the data about your Graph. You will be given three files with pre-generated graph. ( in.txt - 100 nodes, in1.txt - 10000 nodes, in2.txt - 100000 nodes)
+   This will create or overwrite file in.txt. This file will contain all the data about your Graph. You will be given three files with pre-generated graph. ( in.txt - 100 nodes, in1.txt - 10000 nodes, in2.txt - 100000 nodes )
    
    Next you have to run
    
@@ -35,12 +38,12 @@ Project calculating how many Scouts does the King has to ask in order to know ev
 
 		$java -jar benchmarks.jar
 
-   WARNING: Keep in mind that this benchmark is running tests on the AAL/target/classes/in.txt graph. 
+   !WARNING: Keep in mind that this benchmark is running tests on the AAL/target/classes/in.txt graph. 
 5. In order to visualize your graph go into AAL_Algorytmy_Grafowe/Python/ folder, then run 
 
 		$python visualizer.py <path_of_file_with_graph>
 		
-   This module uses graphviz library and will likely as you to install it.
+   This module uses graphviz library so make sure that you install it before running that command.
 
    Replace <path_of_file_with_graph> with path of the file with your graph, that you want to be printed.
    
