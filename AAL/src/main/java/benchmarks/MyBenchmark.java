@@ -29,8 +29,8 @@ public class MyBenchmark {
     @Benchmark
     @BenchmarkMode(Mode.AverageTime)
     @Fork(value = 1)
-    @Warmup(iterations = 500, time = 100, timeUnit = TimeUnit.MILLISECONDS)
-    @Measurement(iterations = 3)
+    @Warmup(iterations = 10, time = 5, timeUnit = TimeUnit.SECONDS)
+    @Measurement(iterations = 5)
     @OutputTimeUnit(TimeUnit.NANOSECONDS)
     public void recursive() {
         Main.howManyScouts(graph,Main::DFS_Recursive);
@@ -39,8 +39,8 @@ public class MyBenchmark {
     @Benchmark
     @BenchmarkMode(Mode.AverageTime)
     @Fork(value = 1)
-    @Warmup(iterations = 500, time = 100, timeUnit = TimeUnit.MILLISECONDS)
-    @Measurement(iterations = 3)
+    @Warmup(iterations = 10, time = 5, timeUnit = TimeUnit.SECONDS)
+    @Measurement(iterations = 5)
     @OutputTimeUnit(TimeUnit.NANOSECONDS)
     public void non_recursive() {
         Main.howManyScouts(graph,Main::DFS_Stack);

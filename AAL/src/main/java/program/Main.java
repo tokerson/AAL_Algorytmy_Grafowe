@@ -18,12 +18,11 @@ public class Main {
         System.out.println("Iterative algoritm calculated that your Majesty shall ask " + scouts + " scouts");
     }
 
-    public static void DFS_Recursive(Graph graph, boolean[] visited, int v) {
-        visited[v] = true;
-        Integer[] neighbors = graph.getNode(v + 1).getNeighbors();
-        for (Integer neighbor : neighbors) {
-            if (!visited[neighbor - 1]) {
-                DFS_Recursive(graph, visited, neighbor - 1);
+    public static void DFS_Recursive(Graph graph, boolean[] visited, int node) {
+        visited[node] = true;
+        for (Integer neighbor : graph.getNeighbors(node)) {
+            if (!visited[neighbor]) {
+                DFS_Recursive(graph, visited, neighbor );
             }
         }
     }
@@ -39,12 +38,10 @@ public class Main {
         while(!stack.empty()) {
             node = stack.pop();
 
-            Integer[] neighbors = graph.getNode(node + 1).getNeighbors();
-
-            for (Integer neighbor : neighbors) {
-                if (!visited[neighbor - 1]) {
-                    visited[neighbor - 1] = true;
-                    stack.push(neighbor - 1);
+            for (Integer neighbor : graph.getNeighbors(node)) {
+                if (!visited[neighbor]) {
+                    visited[neighbor] = true;
+                    stack.push(neighbor);
                 }
             }
         }
