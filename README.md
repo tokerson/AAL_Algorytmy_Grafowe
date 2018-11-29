@@ -11,7 +11,7 @@ Project calculating how many Scouts does the King has to ask in order to know ev
    to compile whole project and create target directory with compiled classes and benchmarks.jar for benchmarking.
    If you encounter troubles with maven-surefire-plugin try running
 
-      $mvn dependency:tree
+         $mvn dependency:tree
 
 2. In order to run application head to AAL/target/classes/ directory. You will find all compiled classes there.
    To build your graph and test it immediately run this command
