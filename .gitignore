@@ -1,6 +1,8 @@
 *.pdf
+!Dokumentacja_AAL.pdf
 *.gv
 *.txt
+*.odt
 !AAL/src/main/resources/*.txt
 AAL/target/
 .idea/

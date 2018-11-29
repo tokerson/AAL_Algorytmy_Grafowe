@@ -4,10 +4,6 @@
     <list default="true" id="912e93a9-de96-4b61-8b75-62c82943fe4f" name="Default Changelist" comment="small commit">
       <change beforePath="$PROJECT_DIR$/../.~lock.wykresy czasowe.ods#" beforeDir="false" afterPath="$PROJECT_DIR$/../.~lock.wykresy czasowe.ods#" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/benchmarks/MyBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/benchmarks/MyBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/Node.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../wykresy czasowe.ods" beforeDir="false" afterPath="$PROJECT_DIR$/../wykresy czasowe.ods" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,7 +18,7 @@
     <session id="-1439876906">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -35,14 +31,16 @@
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="4" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.85" value="1" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -105,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/benchmarks/MyBenchmark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
+            <state relative-caret-position="726">
               <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -136,19 +134,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/program/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-296">
-              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+            <state relative-caret-position="462">
+              <caret line="39" selection-start-line="38" selection-start-column="20" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#createGraph#1;class#Main#0" />
@@ -160,7 +154,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/program/GraphGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
+            <state relative-caret-position="418">
               <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -277,9 +271,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1797" />
-    <option name="width" value="1430" />
-    <option name="height" value="872" />
+    <option name="x" value="338" />
+    <option name="y" value="122" />
+    <option name="width" value="1420" />
+    <option name="height" value="870" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -288,7 +283,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -341,13 +336,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543490480802" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543490646757" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -443,12 +438,16 @@
       <workItem from="1542813778405" duration="83000" />
       <workItem from="1542814309596" duration="371000" />
       <workItem from="1542814940381" duration="409000" />
-      <workItem from="1543489458929" duration="1016000" />
+      <workItem from="1543489458929" duration="1616000" />
+      <workItem from="1543508076622" duration="517000" />
+      <workItem from="1543514074389" duration="98000" />
+      <workItem from="1543514693027" duration="113000" />
+      <workItem from="1543515157185" duration="602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11297000" />
+    <option name="totallyTimeSpent" value="13227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,10 +459,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="26" width="1680" height="1024" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1915" y="93" width="508" height="924" id="Project" order="0" visible="true" weight="0.2753978" />
+      <window_info active="true" content_ui="combo" x="1915" y="93" width="508" height="924" id="Project" order="0" visible="true" weight="0.29008567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -596,6 +594,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/program/Node.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -603,10 +602,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/program/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/benchmarks/MyBenchmark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="726">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -624,27 +628,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/program/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#createGraph#1;class#Main#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/program/GraphGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="418">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -652,14 +641,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/benchmarks/MyBenchmark.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/program/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="462">
+          <caret line="39" selection-start-line="38" selection-start-column="20" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="method#createGraph#1;class#Main#0" />
           </folding>
         </state>
       </provider>
